@@ -1,45 +1,31 @@
-<<<<<<< HEAD
-# NCBI Datasets
-
-https://www.ncbi.nlm.nih.gov/datasets
-
-This zip archive contains an NCBI Datasets Data Package.
-
-NCBI Datasets Data Packages can include sequence, annotation and other data files, and metadata in one or more data report files.
-Data report files are in JSON Lines format.
-
 ---
-## FAQs
-### Where is the data I requested?
-
-Your data is in the subdirectory `ncbi_dataset/data/` contained within this zip archive.
-
-### I still can't find my data, can you help?
-
-We have identified a bug affecting Mac Safari users. When downloading data from the NCBI Datasets web interface, you may see only this README file after the download has completed (while other files appear to be missing).
-As a workaround to prevent this issue from recurring, we recommend disabling automatic zip archive extraction in Safari until Apple releases a bug fix.
-For more information, visit:
-https://www.ncbi.nlm.nih.gov/datasets/docs/reference-docs/mac-zip-bug/
-
-### How do I work with JSON Lines data reports?
-
-Visit our JSON Lines data report documentation page:
-https://www.ncbi.nlm.nih.gov/datasets/docs/v2/tutorials/working-with-jsonl-data-reports/
-
-### What is NCBI Datasets?
-
-NCBI Datasets is a resource that lets you easily gather data from across NCBI databases. Find and download gene, transcript, protein and genome sequences, annotation and metadata.
-
-### Where can I find NCBI Datasets documentation?
-
-Visit the NCBI Datasets documentation pages:
-https://www.ncbi.nlm.nih.gov/datasets/docs/
-
+title: "README"
+output:
+  html_document: default
+  pdf_document: default
+date: "2024-06-26"
 ---
 
-National Center for Biotechnology Information
-National Library of Medicine
-info@ncbi.nlm.nih.gov
-=======
-# ProyectoFinal
->>>>>>> 37eafaf1bb37cc9cb01bc6f31ae0a4c58b6ae9de
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#**Filogenia de Euphorbia**
+```
+
+Mi proyecto consiste en realizar una filogenia del genero Euphorbia perteneciente a la familia Euphorbeacea. Para ello utilice 10 especies del genero Euphorbia y 1 especie del genero Croton como grupo externo. Realice el análisis apartir del gen rps7. La secuencias de cada especie las obtuve del NCBI. 
+
+```{r}
+##**Foto**
+```
+
+![Ejemplo de Euphorbia](https://upload.wikimedia.org/wikipedia/commons/1/18/Euphorbia_obesa_21.JPG) 
+
+```{r}
+##**Video de generalidades**
+```
+
+<iframe src="https://www.youtube.com/embed/eoXdWzP6Sto" data-external="1">
+
+</iframe>
