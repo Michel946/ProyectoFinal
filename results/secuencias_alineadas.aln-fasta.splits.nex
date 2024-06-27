@@ -1,0 +1,44 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=6;
+TAXLABELS
+[1] 'Euphorbia_schlechtendalii'
+[2] 'Euphorbia_hirta'
+[3] 'Euphorbia_maculata'
+[4] 'Croton_yunnanensis'
+[5] 'Euphorbia_nutans'
+[6] 'Euphorbia_hypericifolia'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=6 nsplits=23;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	37	 2 3,
+	100	 4,
+	88	 1 5 6,
+	100	 5,
+	26	 1 6,
+	100	 6,
+	100	 1,
+	30	 2 4,
+	49	 5 6,
+	4	 1 3 4,
+	4	 1 3,
+	28	 3 4,
+	24	 1 5,
+	4	 1 2 3,
+	3	 1 2,
+	2	 1 2 4,
+	1	 4 6,
+	0	 4 5,
+	1	 1 4,
+	0	 1 4 5,
+	0	 1 4 6,
+;
+END; [Splits]
+
